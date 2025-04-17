@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xtreme Muscle Gym - Unleash The Beast</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="logo.jpg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- AOS (Animate On Scroll) Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header id="hero">
+        <nav class="navbar">
+             <!-- Logo Added Here (Hidden on Desktop by CSS) -->
+             <a href="#hero" class="navbar-logo-link">
+                <img src="logo.jpg" alt="Xtreme Muscle Gym Logo" class="navbar-logo">
+             </a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#vibe">The Vibe</a></li>
+                <li><a href="#happening">What's Happening</a></li>
+                <li><a href="#testimonials">Voices</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+             <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+        <div class="hero-content" data-aos="fade-up">
+            <h1 class="main-heading">XTREME MUSCLE</h1>
+            <h2 class="sub-heading">Forge Your Ultimate Physique</h2>
+            <p class="tagline">Train. Dominate. Repeat.</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary" data-aos="fade-up" data-aos-delay="200">Join The Crew</a>
+                <a href="#vibe" class="btn btn-secondary" data-aos="fade-up" data-aos-delay="400">Learn More</a>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#vibe"><i class="fas fa-chevron-down"></i></a>
+        </div>
+        <div class="animated-bg"></div>
+    </header>
+
+    <main>
+        <!-- The Vibe Section -->
+        <section id="vibe">
+            <div class="container">
+                <h2 data-aos="fade-up">The <span class="highlight">Vibe</span></h2>
+                <p class="section-intro" data-aos="fade-up" data-aos-delay="100">
+                    This isn't your average fitness club. We're raw, we're intense, we're a community forged in sweat and steel. Expect loud music, dropped weights, and pure dedication.
+                </p>
+                <div class="vibe-elements">
+                    <div class="vibe-item" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fas fa-dumbbell vibe-icon"></i>
+                        <h3>Strength</h3>
+                        <p>Push your limits, build raw power.</p>
+                        <div class="visual-bar strength-bar"><span></span></div>
+                    </div>
+                    <div class="vibe-item" data-aos="fade-up" data-aos-delay="300">
+                        <i class="fas fa-shield-halved vibe-icon"></i>
+                        <h3>Discipline</h3>
+                        <p>Consistency is key. Show up, work hard.</p>
+                         <div class="visual-bar discipline-bar"><span></span></div>
+                    </div>
+                    <div class="vibe-item" data-aos="fade-up" data-aos-delay="400">
+                        <i class="fas fa-fire vibe-icon"></i>
+                        <h3>Grit</h3>
+                        <p>Embrace the grind, overcome challenges.</p>
+                         <div class="visual-bar grit-bar"><span></span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What's Happening Section -->
+        <section id="happening">
+            <div class="container">
+                <h2 data-aos="fade-up">What's <span class="highlight">Happening</span></h2>
+                <div class="happening-content">
+                    <div class="happening-text" data-aos="fade-up" data-aos-delay="100">
+                        <p>"No mirrors, just sweat."</p>
+                        <p>"Iron sharpens iron."</p>
+                        <p>"Come early, stay late."</p>
+                        <p>"The only bad workout is the one that didn't happen."</p>
+                    </div>
+                    <div class="happening-visuals" data-aos="fade-up" data-aos-delay="200">
+                        <span class="animated-number" data-target="250">0</span> <p>KGs Lifted Daily (Avg)</p>
+                        <span class="animated-number" data-target="100">0</span> <p>% Commitment</p>
+                         <span class="animated-number" data-target="24">0</span> <p>Hours of Pure Grit</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials">
+            <div class="container">
+                <h2 data-aos="fade-up">Voices from the <span class="highlight">Floor</span></h2>
+                <div class="testimonial-slider"
+                     data-aos="fade-up"
+                     data-aos-delay="200"
+                     role="region"
+                     aria-roledescription="carousel"
+                     aria-label="Member Testimonials">
+
+                    <div class="testimonial-wrapper" aria-live="polite">
+                        <!-- Slides will be dynamically managed by JS -->
+                        <div class="testimonial-slide" role="group" aria-roledescription="slide" aria-hidden="true">
+                            <blockquote>
+                                Xtreme Muscle Gym is an outstanding fitness center! Whether you're a beginner or a seasoned gym-goer, Xtreme Muscle Gym has everything you need for a successful workout. Highly recommended!
+                            </blockquote>
+                            <cite>- Baptu.</cite>
+                        </div>
+                        <div class="testimonial-slide" role="group" aria-roledescription="slide" aria-hidden="true">
+                            <blockquote>
+                                The equipment is top-notch and always well-maintained, providing a great workout experience.
+                            </blockquote>
+                            <cite>- Hamiduzzaman.</cite>
+                        </div>
+                        <div class="testimonial-slide" role="group" aria-roledescription="slide" aria-hidden="true">
+                            <blockquote>
+                                The staff is incredibly knowledgeable and supportive, offering personalized guidance to help you achieve your fitness goals. The atmosphere is energetic and motivating, making each visit enjoyable.
+                            </blockquote>
+                            <cite>- JS Jayrul.</cite>
+                        </div>
+                        <!-- Add more slides here if needed -->
+                    </div>
+
+                    <!-- Navigation Dots Container -->
+                    <div class="slider-dots"></div>
+                    <!-- Removed slider buttons -->
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Get in Touch Section -->
+        <section id="contact">
+            <div class="container">
+                <h2 data-aos="fade-up">Get in <span class="highlight">Touch</span></h2>
+                <div class="contact-wrapper">
+                    <div class="contact-form" data-aos="fade-up" data-aos-delay="100">
+                        <h3>Send a Message</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" required>
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" required>
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" rows="4" required></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send It</button>
+                            <!-- Status Message Container -->
+                            <div id="form-status" class="form-status-message" aria-live="polite"></div>
+                            <!-- End Status Message Container -->
+                        </form>
+                    </div>
+                    <div class="contact-info" data-aos="fade-up" data-aos-delay="200">
+                        <h3>Gym Info</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Digabar Road, Opposite Fire & Emergency, Lakhipur Pt I, Assam 788815</p>
+                        <p><i class="fas fa-phone"></i>+91 70024 26563</p>
+
+                        <div class="gym-hours">
+                            <h4><i class="fas fa-clock"></i> Gym Hours</h4>
+                            <ul>
+                                <li>Tue-Sun: <span class="hours-time">5:00 AM - 11:00 PM</span></li>
+                                <li>Mon: <span class="hours-time">CLOSED</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Xtreme<span>Muscle</span></div> <!-- Keep logo in footer -->
+
+                <div class="footer-social">
+                     <a href="https://www.facebook.com/xtrememusclegym/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                     <a href="https://www.instagram.com/xtreme_muscle_gym/?hl=en" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                 </div>
+            </div>
+            <p class="footer-slogan">Built Different.</p>
+            <p class="copyright">© 2024 Xtreme Muscle Gym. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
