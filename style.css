@@ -962,6 +962,8 @@ cite {
     .contact-info p { font-size: 1rem; }
     .contact-info i { font-size: 1.2rem; margin-right: 15px; }
 
+    .gym-info {margin-top: 20px;}
+
     .gym-hours { padding: 20px; }
     .gym-hours h4 { font-size: 1.2rem; }
     .gym-hours li { font-size: 0.95rem; }
